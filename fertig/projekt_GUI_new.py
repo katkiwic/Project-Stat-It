@@ -13,8 +13,6 @@ from matplotlib.ticker import MaxNLocator
 import sys
 
 class MainWindow(QtWidgets.QWidget):
-    x=25 # delete pls
-
     def __init__(self, parent = None):
         QtWidgets.QWidget.__init__(self, parent)
         self.setWindowTitle('Statistik')
