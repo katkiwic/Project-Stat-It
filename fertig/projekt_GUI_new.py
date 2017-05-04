@@ -93,7 +93,7 @@ class MainWindow(QtWidgets.QWidget):
         self.radio_but_land.setChecked(True)
         self.radio_but_land.toggled.connect(self.radio_but_land_toggled)
         self.radio_but_kontinent = QtWidgets.QRadioButton('Kontinent')
-        self.radio_but_kontinent.setFixedWidth(120)
+        self.radio_but_kontinent.setFixedWidth(125)
         
         self.lab_geschlecht = QtWidgets.QLabel('Geschlecht')
         self.lab_geschlecht.setFixedWidth(120)
